@@ -1,4 +1,4 @@
-# felkit
+# felkit (BETA)
 
 Libreria JavaScript per gestire **fatture elettroniche italiane** (formato SDI).
 
