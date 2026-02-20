@@ -21,7 +21,7 @@ Supporta i due formati ufficiali:
 ## Installazione
 
 ```bash
-npm install felkit
+npm install github:davmapo/felkit
 ```
 
 Per abilitare la generazione PDF su Node.js, installa anche la peer dependency opzionale:
