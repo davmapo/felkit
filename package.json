@@ -1,0 +1,40 @@
+{
+  "name": "felkit",
+  "version": "0.1.0",
+  "description": "Libreria JavaScript per gestire fatture elettroniche italiane (ordinaria e semplificata)",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "data"
+  ],
+  "scripts": {
+    "test": "node examples/test.js"
+  },
+  "keywords": [
+    "fattura-elettronica",
+    "fatturapa",
+    "sdi",
+    "xml",
+    "italia"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^5.3.7",
+    "xmllint-wasm": "^3.0.0",
+    "xslt-processor": "^2.2.1"
+  },
+  "peerDependencies": {
+    "puppeteer": ">=21.0.0"
+  },
+  "peerDependenciesMeta": {
+    "puppeteer": {
+      "optional": true
+    }
+  }
+}
